@@ -7,21 +7,10 @@ from .form import *
 # Create your views here.
 
 def index(request):
-    user = request.session.get('user',False)
+    return render(request,'index.html')
 
-    return render(request,'index.tml')
-
-
-def registAndLogin(request):
-    user = request.session.get('user',False)
-    print(user)
-    if not user:
-        return render(request,'login.html')
-    else:
-        return HttpResponseRedirect('/index/')
-
+def login(request):
+    return render(request,'login.html')
 
 def regist(request):
-    check =False
-    if request.method == 'POST':
-        form =
+    return render(request,'regist.html')
