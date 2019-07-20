@@ -14,3 +14,6 @@ def login(request):
 
 def regist(request):
     return render(request,'regist.html')
+
+def logout(request):
+    return render(request,'index.html')
