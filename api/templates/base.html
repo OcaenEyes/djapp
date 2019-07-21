@@ -8,14 +8,17 @@
                                      maximum-scale=1.0,
                                      user-scalable=no">
     <title>{% block title %}这是一个djapp{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="{% static 'bootstrap-4.0.0-dist/css/bootstrap.css' %}">-->
     {% block css %}
-        <link rel="stylesheet" href="{% static 'bootstrap-4.0.0-dist/css/bootstrap.css' %}">
     {% endblock %}
 </head>
 <body>
 {% include 'nav.html' %}
 {% block content %}{% endblock %}
-
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" ></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" ></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
 
 </body>
 </html>
