@@ -34,13 +34,14 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'simpleui',
+    'apps.registAndLogin',
+    'apps.materialMana',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.registAndLogin',
 ]
 
 MIDDLEWARE = [
@@ -88,7 +89,7 @@ DATABASES = {
         'HOST':'127.0.0.1',
         'PORT':'3306',
         'USER':'root',
-        'PASSWORD':'',
+        'PASSWORD':'123456',
     }
 }
 
@@ -134,3 +135,7 @@ STATIC_ROOT = os.path.join(BASE_DIR,'statics')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'medias')
+
+SIMPLEUI_ANALYSIS = False
+SIMPLEUI_HOME_INFO = False
+SIMPLEUI_LOGO ="https://blog.oceaneyes.cn/wp-content/uploads/2019/04/cropped-logo-192x192.jpeg"
