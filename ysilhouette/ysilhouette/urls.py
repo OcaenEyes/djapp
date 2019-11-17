@@ -18,9 +18,13 @@ from django.urls import path
 from . import settings
 from django.views.generic.base import TemplateView
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from apps.api import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/',TemplateView.as_view(template_name="index.html")),
+    path('base_info/',views.base_info)
+
+
 
 ] + staticfiles_urlpatterns()

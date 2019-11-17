@@ -56,7 +56,7 @@ ROOT_URLCONF = 'ysilhouette.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['apps/dist'],
+        'DIRS': ['src/dist'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -133,6 +133,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR,"statics")
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "apps/dist/static"),
+    os.path.join(BASE_DIR, "src/dist/static"),
 ]
 

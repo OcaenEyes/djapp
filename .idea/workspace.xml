@@ -2,11 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f75c968e-050e-45d8-85b4-0bfe10bacea8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ysilhouette/apps/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ysilhouette/apps/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/apps/api/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/apps/api/migrations/0002_auto_20191117_1449.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/apps/api/migrations/0003_auto_20191117_1450.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/apps/api/migrations/0004_auto_20191117_1451.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/src/dist/static/css/app.1042e76c2f31f6dd47f744057386fa63.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/src/dist/static/fonts/element-icons.535877f.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/src/dist/static/fonts/element-icons.732389d.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/src/dist/static/img/bg.118d7ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/src/dist/static/js/app.b294a78a8f3ab68f8d87.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/src/dist/static/js/app.b294a78a8f3ab68f8d87.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/css/app.1042e76c2f31f6dd47f744057386fa63.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/css/app.1042e76c2f31f6dd47f744057386fa63.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/fonts/element-icons.535877f.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/fonts/element-icons.732389d.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/img/bg.118d7ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/js/app.b294a78a8f3ab68f8d87.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/js/app.b294a78a8f3ab68f8d87.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/js/vendor.67d128e05edbeaa6e976.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/js/vendor.67d128e05edbeaa6e976.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/djapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djapp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/apps/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/apps/api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/api/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/apps/api/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/apps/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/apps/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/src/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/dist/static/css/app.18fb1038df565968ac0ef9ae1b4bbb9f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/dist/static/css/app.18fb1038df565968ac0ef9ae1b4bbb9f.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/src/dist/static/css/app.1042e76c2f31f6dd47f744057386fa63.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/dist/static/fonts/element-icons.535877f.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/dist/static/fonts/element-icons.732389d.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/dist/static/js/app.e64f083e809af6603d8e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/dist/static/js/app.e64f083e809af6603d8e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/src/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/src/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/dist/static/js/vendor.67d128e05edbeaa6e976.js" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/src/dist/static/js/vendor.67d128e05edbeaa6e976.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/dist/static/js/vendor.67d128e05edbeaa6e976.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/src/dist/static/js/vendor.67d128e05edbeaa6e976.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/statics/css/app.30790115300ab27614ce176899523b62.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/statics/css/app.30790115300ab27614ce176899523b62.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/statics/js/app.b22ce679862c47a75225.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/statics/js/app.b22ce679862c47a75225.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/statics/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/statics/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/statics/js/vendor.e00e51762311e00a2108.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/statics/js/vendor.e00e51762311e00a2108.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/statics/rest_framework/docs/js/highlight.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/statics/rest_framework/docs/js/highlight.pack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/ysilhouette/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/ysilhouette/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/ysilhouette/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/ysilhouette/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,33 +59,40 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>.colla</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1OwhjHx6GwNWnjdl0Z1TiQgDuTR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ysilhouette/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ysilhouette/src" />
+      <recent name="$PROJECT_DIR$/ysilhouette/src/static" />
+      <recent name="$PROJECT_DIR$/ysilhouette/statics/eleui" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ysilhouette/statics/elementui" />
+      <recent name="$PROJECT_DIR$/ysilhouette/src/static" />
+      <recent name="$PROJECT_DIR$/ysilhouette/src" />
       <recent name="C:\Users\YSilhouette\Documents\GitHub\djapp\api\apps" />
       <recent name="$PROJECT_DIR$/api/statics" />
-      <recent name="C:\Users\YSilhouette\Documents\GitHub\djapp\api" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -75,6 +124,7 @@
       <workItem from="1565443857672" duration="2093000" />
       <workItem from="1570453358663" duration="378000" />
       <workItem from="1570459940246" duration="737000" />
+      <workItem from="1573908809676" duration="12229000" />
     </task>
     <servers />
   </component>
@@ -93,5 +143,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
