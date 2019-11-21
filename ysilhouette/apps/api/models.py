@@ -36,16 +36,16 @@ class Resume(models.Model):
 
 
 class Skills(models.Model):
-    sid = models.ForeignKey(Resume, on_delete=models.DO_NOTHING, verbose_name="姓名")
-    skill = models.CharField(max_length=100, verbose_name="技能")
-    pid = models.ForeignKey('self', verbose_name="技能点",on_delete=models.DO_NOTHING)
+    s_id = models.ForeignKey(Resume, on_delete=models.DO_NOTHING, verbose_name="姓名")
+    s_name = models.CharField(max_length=100, verbose_name="技能")
+    s_grade = models.CharField(max_length=3, verbose_name="技能点")
 
     class Meta:
         verbose_name = "技能"
         verbose_name_plural = "技能"
 
     def __str__(self):
-        return self.skill
+        return self.s_name
 
 
 class Education(models.Model):

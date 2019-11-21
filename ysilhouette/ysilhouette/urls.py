@@ -19,11 +19,14 @@ from . import settings
 from django.views.generic.base import TemplateView
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from apps.api import views
+from django.urls import re_path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/',TemplateView.as_view(template_name="index.html")),
-    path('base_info/',views.base_info)
+    path('api/getresume',views.getresume),
+    path('api/getskills',views.getskills),
+    re_path(r'^api/resume/(?P<pk>\d+)/$',views.ResumeView.as_view({'get': 'retrieve','delete':'destroy','put':'update','patch':'partial_update'}))
 
 
 
