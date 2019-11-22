@@ -38,7 +38,7 @@ class Resume(models.Model):
 class Skills(models.Model):
     s_id = models.ForeignKey(Resume, on_delete=models.DO_NOTHING, verbose_name="姓名")
     s_name = models.CharField(max_length=100, verbose_name="技能")
-    s_grade = models.CharField(max_length=3, verbose_name="技能点")
+    s_grade = models.IntegerField(verbose_name="技能点")
 
     class Meta:
         verbose_name = "技能"
@@ -82,6 +82,7 @@ class Blogs(models.Model):
     blog_id = models.AutoField(primary_key=True, editable=False)
     blog_title = models.CharField(max_length=50,verbose_name="标题")
     blog_content = models.TextField(verbose_name="内容")
+    blog_cover = models.ImageField(verbose_name="封面",default='null',)
     blog_editor = models.ForeignKey(Resume, on_delete=models.DO_NOTHING, verbose_name="作者")
     blog_ctime = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")
     blog_utime = models.DateTimeField(auto_now=True, verbose_name="更新时间")
@@ -92,4 +93,6 @@ class Blogs(models.Model):
 
     def __str__(self):
         return self.blog_title
+
+
 
