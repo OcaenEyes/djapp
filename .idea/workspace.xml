@@ -2,11 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f75c968e-050e-45d8-85b4-0bfe10bacea8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ysilhouette/apps/api/migrations/0002_auto_20191122_1150.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/apps/api/migrations/0003_jobs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/medias/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/reqiurement.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/src/dist/static/css/app.e3e431cb32200a9197a1b0740009ab0d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/src/dist/static/css/app.e3e431cb32200a9197a1b0740009ab0d.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/css/app.7fd177a0bb7436a30c6460cdabf1b165.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/css/app.7fd177a0bb7436a30c6460cdabf1b165.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/img/bg.3b986b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/img/head.f60572c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/js/app.28dacda8b8c54524f3aa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/js/app.28dacda8b8c54524f3aa.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/js/vendor.765de5311e2d5a5a147a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/statics/js/vendor.765de5311e2d5a5a147a.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysilhouette/ysilhouette_uwsgi_8002.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/apps/api/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ysilhouette/apps/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/apps/api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/api/paginations.py" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/apps/api/paginations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/apps/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/apps/api/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ysilhouette/apps/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/apps/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/src/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/src/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/src/dist/static/css/app.7fd177a0bb7436a30c6460cdabf1b165.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/src/dist/static/css/app.7fd177a0bb7436a30c6460cdabf1b165.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/src/dist/static/js/app.28dacda8b8c54524f3aa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/src/dist/static/js/app.28dacda8b8c54524f3aa.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/src/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/src/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/src/dist/static/js/vendor.765de5311e2d5a5a147a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/src/dist/static/js/vendor.765de5311e2d5a5a147a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/statics/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/statics/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/ysilhouette/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/ysilhouette/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysilhouette/ysilhouette/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ysilhouette/ysilhouette/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +109,7 @@
       <workItem from="1570459940246" duration="737000" />
       <workItem from="1573908809676" duration="12229000" />
       <workItem from="1574042120218" duration="8434000" />
-      <workItem from="1574242164128" duration="4741000" />
+      <workItem from="1574242164128" duration="13521000" />
     </task>
     <servers />
   </component>

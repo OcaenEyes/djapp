@@ -20,14 +20,19 @@ from django.views.generic.base import TemplateView
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from apps.api import views
 from django.urls import re_path
+from django.views.static import serve
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/',TemplateView.as_view(template_name="index.html")),
+    path('',TemplateView.as_view(template_name="index.html")),
     path('api/getresume',views.getresume),
     path('api/getskills',views.getskills),
-    re_path(r'^api/resume/(?P<pk>\d+)/$',views.ResumeView.as_view({'get': 'retrieve','delete':'destroy','put':'update','patch':'partial_update'}))
-
+    path('api/getprojects',views.getprojects),
+    path('api/getjobs',views.getjobs),
+    path('api/geteducation',views.geteducation),
+    path('api/getblogs',views.getblogs),
+    re_path(r'^api/resume/(?P<pk>\d+)/$',views.ResumeView.as_view({'get': 'retrieve','delete':'destroy','put':'update','patch':'partial_update'})),
+    re_path(r'^api/media/(?P<path>.*)$',serve,{"document_root":settings.MEDIA_ROOT})
 
 
 ] + staticfiles_urlpatterns()

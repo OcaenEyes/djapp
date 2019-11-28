@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Resume,Skills,Education,Projects,Blogs
+from .models import Resume,Skills,Education,Projects,Blogs,Jobs
 
 # Register your models here.
 
@@ -9,6 +9,7 @@ from .models import Resume,Skills,Education,Projects,Blogs
 admin.site.register(Resume)
 admin.site.register(Skills)
 admin.site.register(Education)
+admin.site.register(Jobs)
 admin.site.register(Projects)
 admin.site.register(Blogs)
 admin.site.site_title = "ysilhouette"

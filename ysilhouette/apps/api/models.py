@@ -63,6 +63,21 @@ class Education(models.Model):
         return self.e_name
 
 
+class Jobs(models.Model):
+    j_id = models.ForeignKey(Resume,verbose_name="姓名",on_delete=models.DO_NOTHING)
+    j_name = models.CharField(max_length=50, verbose_name="公司名称")
+    j_sdate = models.DateField(verbose_name="开始时间")
+    j_edate = models.DateField(verbose_name="结束时间")
+    j_content = models.TextField(verbose_name="工作简介")
+
+    class Meta:
+        verbose_name = "工作经历"
+        verbose_name_plural = "工作经历"
+
+    def __str__(self):
+        return self.j_name
+
+
 class Projects(models.Model):
     p_id = models.ForeignKey(Resume, verbose_name="姓名",on_delete=models.DO_NOTHING)
     p_name = models.CharField(max_length=50, verbose_name="项目名称")
